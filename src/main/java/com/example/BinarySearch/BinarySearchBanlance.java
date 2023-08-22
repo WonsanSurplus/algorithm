@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * @Classname: BinarySearchBasic
- * @Description: TODO
+ * @Description: 去除一个elseif
  * @Date: 2023/8/21 021
  * @Author: zs
  */
@@ -32,7 +32,7 @@ public class BinarySearchBanlance {
     }
 
     @Test
-    @DisplayName("测试 binarySearchBasic")
+    @DisplayName("测试 binarySearch")
     public void test1() {
         int[] arr = {1, 2, 4, 6, 7, 8, 9};
         assertEquals(0, binarySearch(arr, 1));
